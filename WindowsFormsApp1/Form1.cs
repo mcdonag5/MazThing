@@ -59,20 +59,18 @@ namespace WindowsFormsApp1 {
                 rooms[0, 2, 1] = "The entryway to the north is blocked.";
             }
             //monster fight check
-            if(rooms[playerX,playerY,2] != "") {
-                switch (rooms[playerX,playerY,2]) {
-                    case "Normal":
+            switch (rooms[playerX, playerY, 2])
+            {
+                case "Normal":
 
-                        break;
-                    case "Elite":
+                    break;
+                case "Elite":
 
-                        break;
-                    case "Boss":
+                    break;
+                case "Boss":
 
-                        break;
-                }
+                    break;
             }
-
         }
 
         //change views
